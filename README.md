@@ -6,7 +6,7 @@ This module will append google feed api script to document and load feed api asy
 ## Installation
 
 ```
-npm install node-google-feed-api
+npm install git+https://github.com/zenoplex/node-google-feed-api.git --save
 ```
 
 ## Usage - API
