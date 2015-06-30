@@ -13,7 +13,10 @@
     "url":  "git+https://github.com/zenoplex/node-google-feed-api.git"
   },
   "files":           [
-    "dist"
+    "README.md",
+    "src/index.js",
+    "package.json",
+    "test"
   ],
   "directories":     {
     "tests": "test/"
