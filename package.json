@@ -1,0 +1,44 @@
+{
+  "name":            "node-google-feed-api",
+  "version":         "1.0.0",
+  "description":     "A node.js package for dynamically loading feeds with google feed api.",
+  "main":            "src/index.js",
+  "scripts":         {
+    "build": "babel src --out-dir dist --source-maps inline",
+    "watch": "babel src --out-dir dist --watch --source-maps inline",
+    "test":  "karma start"
+  },
+  "repository":      {
+    "type": "git",
+    "url":  "git+https://github.com/zenoplex/node-google-feed-api.git"
+  },
+  "files":           [
+    "dist"
+  ],
+  "directories":     {
+    "tests": "test/"
+  },
+  "keywords":        [
+    "google",
+    "feed"
+  ],
+  "author":          "Gen",
+  "license":         "MIT",
+  "bugs":            {
+    "url": "https://github.com/zenoplex/node-google-feed-api/issues"
+  },
+  "homepage":        "https://github.com/zenoplex/node-google-feed-api#readme",
+  "devDependencies": {
+    "babel":                 "^5.6.6",
+    "babel-plugin-espower":  "^1.0.0",
+    "babelify":              "^6.1.2",
+    "espower-babel":         "^3.2.0",
+    "karma":                 "^0.12.37",
+    "karma-browserify":      "^4.2.1",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-mocha":           "^0.2.0",
+    "mocha":                 "^2.2.5",
+    "power-assert":          "^0.11.0",
+    "source-map-support":    "^0.3.1"
+  }
+}
