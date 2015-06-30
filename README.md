@@ -19,8 +19,6 @@ npm install node-google-feed-api
 <a name="module-constructor"></a>
 ### GoogleFeedApi()
 
-GoogleFeedApi is helper class for Google Feed API.
-
 | Param | Type |
 | --- | --- |
 | url | <code>string</code> | 
@@ -28,9 +26,9 @@ GoogleFeedApi is helper class for Google Feed API.
 
 
 <a name="module-method-load"></a>
-#### google-feed-api~value(callback)
+#### load(callback)
 
-load feed
+load feed/rss
 
 | Param | Type |
 | --- | --- |
