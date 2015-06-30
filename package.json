@@ -2,11 +2,12 @@
   "name":            "node-google-feed-api",
   "version":         "1.0.0",
   "description":     "A node.js package for dynamically loading feeds with google feed api.",
-  "main":            "src/index.js",
+  "main":            "lib/index.js",
   "scripts":         {
     "build": "babel src --out-dir lib --source-maps inline",
     "watch": "babel src --out-dir lib --watch --source-maps inline",
-    "test":  "karma start"
+    "test":  "karma start",
+    "prepublish": "npm run build"
   },
   "repository":      {
     "type": "git",
