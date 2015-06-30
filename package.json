@@ -4,8 +4,8 @@
   "description":     "A node.js package for dynamically loading feeds with google feed api.",
   "main":            "src/index.js",
   "scripts":         {
-    "build": "babel src --out-dir dist --source-maps inline",
-    "watch": "babel src --out-dir dist --watch --source-maps inline",
+    "build": "babel src --out-dir lib --source-maps inline",
+    "watch": "babel src --out-dir lib --watch --source-maps inline",
     "test":  "karma start"
   },
   "repository":      {
@@ -16,7 +16,9 @@
     "README.md",
     "src/index.js",
     "package.json",
-    "test"
+    "test",
+    "lib",
+    "src"
   ],
   "directories":     {
     "tests": "test/"
